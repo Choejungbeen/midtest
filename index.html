@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>포트폴리오 - 홈</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 헤더 -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html">My Portfolio</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">홈</a></li>
+            <li><a href="team.html">팀 프로젝트</a></li>
+            <li><a href="review.html">박람회 후기</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- 메인 콘텐츠 -->
+  <main>
+    <div class="container">
+      <!-- 히어로 섹션 -->
+      <section class="hero">
+        <h1>나의 포트폴리오</h1>
+        <p>포트폴리오 소개페이지에 오신걸 환영합니다.</p>
+      </section>
+
+      <!-- 자기소개 섹션 -->
+      <section>
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p>중부대학교 정보보호학과에 재학중인 최정빈입니다. 웹 개발과 디자인을 웹프로그래밍 교과목을 통해 배우고 있습니다. HTML, CSS, JAVASCRIPT를 잘 습득해서 나만의 멋있는 홈페이지를 만들 수 있도록 열심히 공부중입니다.</p>
+          <p>저는 파주 운정에 거주하고 있으며 취미는 유튜브 시청, 음악 감상 등이 있습니다.</p>
+          
+        </div>
+      </section>
+
+      <!-- 스킬 섹션 - 업데이트된 디자인 -->
+      <section>
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <!-- C 프로그래밍 -->
+          <div class="skill-item skill-c">
+            <div class="skill-icon">
+              <img src="https://i.namu.wiki/i/uVdBtEeu5IY1wc9lAB485F0FD7gA5k4DoWtU0VvVi6xtDlAuSSiRmRGPzTFEoio_QFkhGgjtoh7q2fLXnsZSsxdq4LWZ16sqf8cey0bMKHeGXd_yjOrWBMCEoG7XylWiSHTtCyAj8QXZ0KF2DylzaQ.svg" alt="C 프로그래밍 언어 아이콘">
+            </div>
+            <h3 class="skill-name">C</h3>
+          
+          </div>
+          
+          <!-- Python -->
+          <div class="skill-item skill-python">
+            <div class="skill-icon">
+              <img src="data:image/jpeg;base64,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" alt="Python 언어 아이콘">
+            </div>
+            <h3 class="skill-name">Python</h3>
+           
+          </div>
+          
+          <!-- HTML -->
+          <div class="skill-item skill-html">
+            <div class="skill-icon">
+              <img src="https://i.namu.wiki/i/g7yJiBuCndctPD6C3J1MLcODnqT2W_KThg_D8tjM9LZaka7pMU9VhDKTA6QolDF-cbg6ojP0iBV0wBJ2b8qCfYjnrA8UQ-SoSMX7Ru_exdpKICd4AZjAFTRqjf2M5V3zyMIpCr0H3BG7gPx8UoH8gw.svg" alt="HTML 아이콘">
+            </div>
+            <h3 class="skill-name">HTML</h3>
+          </div>
+          
+          <!-- CSS -->
+          <div class="skill-item skill-css">
+            <div class="skill-icon">
+              <img src="https://i.namu.wiki/i/2NVuWr6q3Lbo5triwymaqnNsSr_4JD-GjeuQr4V8DBgfBSaPw0vpbhUZvxDETt3MP0nB_CW1-MdS7GldZwGUX-pxDdskHuuIigaRVdbvE6FNaKCu7cS9p3faBZf0PffKJimVL0_HRsTjwbDtkanYRA.svg" alt="CSS 아이콘">
+            </div>
+            <h3 class="skill-name">CSS</h3>
+          
+          </div>
+          
+          <!-- JavaScript -->
+          <div class="skill-item skill-js">
+            <div class="skill-icon">
+              <img src="https://i.namu.wiki/i/R3YchcBuiBLYt63hrd8gu_v4zTo6GcwVQ5jQ-JBVcZjVnfOPv7XxsfJ32nzcYG__BGVbZFlrqTruxL53tuobKDxW1WkO7JZS6VM7iSZuzCgKZoflpA5OFqn79M4rtIO3PiAaMUypaCsqipidI0cVoA.svg" alt="JavaScript 아이콘">
+            </div>
+            <h3 class="skill-name">JavaScript</h3>
+            
+          </div>
+          
+          <!-- Java -->
+          <div class="skill-item skill-java">
+            <div class="skill-icon">
+              <img src="https://i.namu.wiki/i/siBGsdMruCed1CXFDjoLj8NR13u1Vx2CR8Oybo_-uc_kjHA_ly-HT6MM0wRCsqOS6483nqf8yh38msqGrjFa0bUvTdQE8PS0dL1XCyptubbONaDC2lfpjp3Mk32tNnSK1x-q-nRwjaKwOi8f07uqSg.svg" alt="Java 아이콘">
+            </div>
+            <h3 class="skill-name">Java</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- 포트폴리오 섹션 -->
+      <section>
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio-grid">
+          <!-- 포트폴리오 아이템 1 -->
+          <div class="portfolio-item">
+            <div class="portfolio-img">
+                <a href="https://hcjdemo-been.vercel.app/" target="_blank">
+                    <img src="image\hcjdemopicture.PNG" alt="hcj과제"  /></a>
+            </div>
+            <div class="portfolio-info">
+              <h3>첫 번째 과제</h3>
+              <p><a href="https://github.com/Choejungbeen/HCJDEMO" target="_blank">GitHub</a></p>
+            </div>
+          </div>
+          
+          <!-- 포트폴리오 아이템 2 -->
+          <div class="portfolio-item">
+            <div class="portfolio-img">
+                <a href="https://work1-1-ruby.vercel.app/" target="_blank">
+                    <img src="image\2homework.PNG" alt="hcj과제"  /></a>
+            </div>
+            <div class="portfolio-info">
+              <h3>두 번째 과제</h3>
+              <p><a href="https://github.com/Choejungbeen/work1" target="_blank">GitHub</a></p>
+            </div>
+          </div>
+          
+          <!-- 포트폴리오 아이템 3 -->
+          <div class="portfolio-item">
+            <div class="portfolio-img">
+              <p>프로젝트 이미지</p>
+            </div>
+            <div class="portfolio-info">
+              <h3>웹 취약점 분석 시스템 개발</h3>
+              <p>현재 캡스톤 과목에서 진행중</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 연락처 섹션 -->
+      <section>
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-content">
+          <p>이메일: bean040949@gmail.com</p>
+        
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- 푸터 -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <div class="social-links">
+          <a href="https://github.com/Choejungbeen" target="_blank">GitHub</a>
+          <a href="https://www.instagram.com/jungbeen_0/" target="_blank">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
